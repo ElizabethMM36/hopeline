@@ -1,6 +1,6 @@
-
+import { Link } from 'react-router-dom';
 import React from 'react';
-
+import SupportLocator from './SupportLocator';
 const getLevel = (score) => {
   if (score <= 3) return { level: "Low Risk", advice: "Stay informed and keep healthy habits!" };
   if (score <= 7) return { level: "Moderate Risk", advice: "Consider talking to a counselor or trusted adult." };
@@ -20,6 +20,12 @@ const Result = ({ score }) => {
         <li><a href="https://www.samhsa.gov/find-help/national-helpline" target="_blank">SAMHSA Helpline</a></li>
         <li><a href="https://www.7cups.com/" target="_blank">7 Cups – Online Therapy</a></li>
       </ul>
+      <p style={{ marginTop: '1.5rem' }}>
+  <Link to="/chat">
+    <button>Join Peer Support Chat 💬</button>
+  </Link>
+</p>
+      
     </div>
   );
 };
