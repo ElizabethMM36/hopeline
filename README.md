@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+HopeLine..........
 Hopeline is a lightweight web application designed to provide anonymous, supportive, and accessible tools for early detection of drug use risk and access to peer support — all with total privacy.
 
 ⚡ Built with React + Firebase + IP-based geolocation
@@ -15,9 +13,10 @@ Backend: Firebase Firestore (realtime database) & Anonymous Auth
 Location API: ipapi.co
 
 Hosting: Can be deployed to Firebase or Vercel
-
+Setup firebase
 Install Dependencies
 npm install
+To start npm start
 
 ## Available Scripts
 
